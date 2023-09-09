@@ -1,4 +1,4 @@
-# Main calculator function
+
 def calculator():
     print("Select operation:")
     print("1. Addition (+)")
@@ -6,7 +6,7 @@ def calculator():
     print("3. Multiplication (*)")
     print("4. Division (/)")
 
-    # Take input from the user
+
     choice = input("Enter choice (1/2/3/4): ")
 
     if choice not in ['1', '2', '3', '4']:
@@ -36,5 +36,4 @@ def calculator():
 
     print(f"{operation} result: {result}")
 
-# Run the calculator
 calculator()
